@@ -1,0 +1,16 @@
+# Binaries
+udpfs_server_go.exe
+udpfs_server_go
+
+# Build/test artifacts
+*.exe
+*.test
+*.out
+*.prof
+stdout_test.txt
+stderr_test.txt
+udpfs.pid
+*.log
+
+# Keep the ready-to-run binary in the repo
+!udpfs_server_go.exe
